@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>생성형 AI 소개</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7c3aed;--muted:#9aa4b2;color-scheme:dark}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,var(--bg),#071025);color:#e6eef8}
+    .wrap{max-width:900px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#4f46e5);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin-top:8px}
+    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:12px;margin-top:18px}
+    h2{margin:0 0 10px 0}
+    ul{margin:0 0 0 1.1rem;padding:0}
+    footer{margin-top:26px;color:var(--muted);font-size:0.9rem}
+    .tags{display:flex;gap:8px;flex-wrap:wrap}
+    .tag{background:rgba(255,255,255,0.04);padding:6px 10px;border-radius:999px;font-size:0.85rem}
+    @media (max-width:600px){.wrap{margin:20px;padding:16px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="logo">AI</div>
+      <div>
+        <h1>생성형 AI(Generative AI) 간단 소개</h1>
+        <p class="lead">인공지능이 새로운 콘텐츠(텍스트, 이미지, 오디오 등)를 생성하는 방식과 활용 사례를 간략히 설명합니다.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>생성형 AI란?</h2>
+      <p>생성형 AI는 대규모 데이터로 학습한 모델이 새롭고 일관된 출력을 만들어내는 기술입니다. 대표적인 예로 텍스트 생성, 이미지 합성, 음성 생성 등이 있습니다.</p>
+      <div class="tags" style="margin-top:12px">
+        <div class="tag">모델: Transformer</div>
+        <div class="tag">출력: 텍스트·이미지·오디오</div>
+        <div class="tag">학습: 지도/자기지도</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>활용 사례</h2>
+      <ul>
+        <li>콘텐츠 제작: 기사 요약, 블로그 글 작성, 가사·시 창작</li>
+        <li>이미지 생성 및 편집: 제품 이미지 제작, 디자인 시안 생성</li>
+        <li>대화형 에이전트: 챗봇, 고객지원 자동화</li>
+        <li>코드 보조: 코드 생성 및 자동 완성</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>장점과 한계</h2>
+      <ul>
+        <li><strong>장점:</strong> 생산성 향상, 아이디어 확장, 빠른 프로토타입</li>
+        <li><strong>한계:</strong> 허위정보(홀라), 편향성, 저작권 문제, 훈련데이터 의존</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>윤리 및 안전</h2>
+      <p>생성형 AI를 안전하게 쓰려면 출처 표기, 편향/유해한 내용 필터링, 개인정보 보호, 사용 목적의 투명성 유지가 중요합니다.</p>
+    </section>
+
+    <footer>
+      이 페이지는 교육용 간단 예시입니다. 더 자세한 설명이나 디자인 변경을 원하시면 알려주세요.
+    </footer>
+  </main>
+</body>
+</html>
